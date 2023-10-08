@@ -1,14 +1,15 @@
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
-.nrepl-port
-.cpcache/
+# Ignore build files
+*.o
+*.pyc
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore user-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore files related to your Docker environment (if any)
+.env
